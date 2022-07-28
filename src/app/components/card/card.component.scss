@@ -1,0 +1,25 @@
+.card {
+    border-radius: 5px;
+    box-shadow: var(--default-box-shadow);
+    overflow: auto;
+
+    &__img {
+        width: 100%;
+        aspect-ratio: 2 / 1;
+        object-fit: cover;
+    }
+
+    &__info {
+        padding: 2rem;
+
+        h2 {
+            font-weight: var(--fw-extra-bold);
+            font-size: var(--fs-600);
+        }
+
+        span {
+            font-weight: var(--fw-semi-bold);
+        }
+
+    }
+}

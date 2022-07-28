@@ -1,0 +1,24 @@
+.container {
+    --max-width: 1200px;
+    --padding: 4rem;
+  
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline: auto;
+}
+  
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns:
+        repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+:where(.flow > :not(:last-child)) {
+    margin-bottom: 0.5em;
+}

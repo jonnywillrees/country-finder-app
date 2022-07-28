@@ -1,0 +1,12 @@
+<div class="card">
+    <img class="card__img"
+        src="{{ country.flags.svg }}"
+        alt="{{ country.cioc }} flag"
+    >
+    <div class="card__info | flow">
+        <h2>{{ country.name.common }}</h2>
+        <p><span>Population:</span> {{ country.population }}</p>
+        <p><span>Region:</span> {{ country.region }}</p>
+        <p><span>Capital:</span> {{ country.capital[0] }}</p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.main-wrapper {
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-homepage);
+    color: var(--clr-text);
+    background-color: var(--clr-background);
+}
+
+.header {
+    padding-block: 1.8rem;
+    background-color: var(--clr-element);
+    box-shadow: var(--default-box-shadow);
+
+    &__title {
+        font-size: var(--fs-700);
+        font-weight: var(--fw-extra-bold);
+    }
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 2rem;
+}
